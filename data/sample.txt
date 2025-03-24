@@ -1,0 +1,1 @@
+Couchbase is a NoSQL database optimized for high performance and scalability.
