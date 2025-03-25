@@ -3,7 +3,7 @@ from couchbase.auth import PasswordAuthenticator
 
 # Connect to Couchbase
 def get_couchbase_cluster():
-    cluster = Cluster("couchbase://localhost", ClusterOptions(PasswordAuthenticator("Administrator", "Administrator")))
+    cluster = Cluster("couchbase://localhost", ClusterOptions(PasswordAuthenticator("Administrator", "Password")))
     bucket = cluster.bucket("rag_db")
     collection = bucket.default_collection()
     return collection
