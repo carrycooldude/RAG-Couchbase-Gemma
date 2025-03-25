@@ -3,7 +3,7 @@ from couchbase_setup import get_couchbase_cluster
 import google.generativeai as genai
 
 # Set up the API key
-genai.configure(api_key="AIzaSyCEWeG2Iwx2xaDerN2XfHtI_kJdNgQXuGc")
+genai.configure(api_key="YOUR_API_KEY")
 
 # Generate embedding using Google's embedding model
 def generate_embedding(text):
