@@ -73,3 +73,4 @@ print(response)
 ## 🔗 References  
 - [Couchbase Docs](https://docs.couchbase.com/home/index.html)  
 - [Gemma 3 by Google](https://ai.google.dev/models/gemma)
+- [BLog by @carrycooldude](https://medium.com/@carrycooldude/next-gen-rag-with-couchbase-and-gemma-3-building-a-scalable-ai-powered-knowledge-system-5795eae6164d)
